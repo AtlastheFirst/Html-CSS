@@ -1,0 +1,145 @@
+<!Doctype html>
+<html lang="en">
+
+<link rel="stylesheet" href="styles.css"> 
+<head> </head>
+
+  <body>
+
+
+  <h1 id="title">What Kind of Books Do You Like?</h1>
+
+  <p id="description"> For Those Who Enjoy the Journey of the Mind
+  </p>
+
+  <form id="survey-form">
+<div class="input-element" >
+   <label id="name-label"> 
+    
+     Name
+    
+   <input Id="name" type="text" 
+   placeholder ="Enter Name" required/>
+      
+   </input>  
+   </label> 
+</div>
+</form>
+
+<form id="survey-form">
+  <div class="input-element" >
+   <label id="email-label"> 
+     
+     Email
+    
+   <input Id="email"
+   
+      placeholder ="Enter Email"
+       type="email"required></input>  
+   </label> 
+</div>
+
+</form>
+
+<form id="survey-form">
+ 
+ <div class="input-element" >
+   <label id="number-label" > 
+     
+     Age
+    
+   <input Id="number" type="number" id="number" max = "120" min= "1"  
+      placeholder ="Enter Age"
+   required/>
+      
+   </input>  
+   </label> 
+</div>
+
+</form>
+
+
+      </div> 
+</form>
+
+<form id="survey-form" >
+<div class="input-element">
+
+<label> Do You Enjoy Reading Books?</label>
+
+<label> 
+<input type="radio" value="1" name="Book">Yes</input>
+</label>
+</div>
+<div>
+<label> <input type="radio" value="2" name="Book"> No</input>
+</div>
+</form>
+
+<form id="survey-form" >
+
+<label> What Genre of Books Do you Enjoy?</label>
+  <div class="input-element">
+  <label> <input type="checkbox" value="1" > Action/Adventure
+  </input>
+  </label>
+</div>
+<div class="input-element">
+<label> <input type="checkbox" value="2" > Crime</input>
+</label>
+</div>
+<div class="input-element" >
+<label> <input type="checkbox" value="3" > Fantasy</input> </label>
+</div>
+<div class="input-element" >
+<label> <input type="checkbox" value="4"> </input> Horror</label>
+</div>
+<div class="input-element" >
+<label> <input type="checkbox" value="5"> </input> Mystery</label>
+</div>
+<div class="input-element" >
+<label> <input type="checkbox" value="6" > </input> Romance</label>
+</div>
+<div class="input-element" >
+<label> <input type="checkbox"  value="7"> </input> Sci Fi</label>
+</div>
+<div class="input-element" >
+<label> <input type="checkbox" value="8" > </input> Historical</label>
+</div>
+
+<div class="input-element" >
+<label> <input type="checkbox" value="9" >Drama </input> </label>
+</div>
+<div class="input-element" >
+<label> <input type="checkbox" value="10"> Humor</input> </label>
+</div>
+<div class="input-element" >
+<label><input type="checkbox" value="11" >  Auto/Biography</input> </label>
+</div>
+
+</form>
+
+<form id="survey-form">
+  <div>
+    <label> Where Do You Read Your Books?
+<select id="dropdown">
+<option value="">(Click Here)</option>
+<option value="1">Kindle</option>
+<option value="2">Books</option>
+<option value="3">Laptop</option>
+<option value="4">Other</option>
+      </input>
+      </label>
+
+
+<form>
+
+<label for="bio"> Any Suggestions?
+          <textarea id="Suggestions" name="Suggestions" rows="3" cols="30" placeholder="Enter Suggestions Here"></textarea>
+        </label>
+  </form>
+   
+<input type="submit" value="Submit" id="submit" />
+ </body>
+
+
